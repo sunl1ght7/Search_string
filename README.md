@@ -26,32 +26,7 @@ Google Test для модульного тестирования
 
 STL (многопоточность, файловая система, алгоритмы)
 
-Структура проекта
-text
-SearchEngine/
-├── CMakeLists.txt              # Корневой файл сборки
-├── src/                        # Исходный код
-│   ├── CMakeLists.txt
-│   ├── main.cpp               # Главная программа
-│   ├── ConverterJSON.cpp      # Работа с JSON файлами
-│   ├── ConverterJSON.h
-│   ├── InvertedIndex.cpp      # Инвертированный индекс
-│   ├── InvertedIndex.h
-│   ├── SearchServer.cpp       # Поисковый сервер
-│   └── SearchServer.h
-├── tests/                      # Тесты
-│   ├── CMakeLists.txt
-│   ├── test_main.cpp          # Главный файл тестов
-│   ├── test_invertedindex.cpp # Тесты индекса
-│   └── test_searchserver.cpp  # Тесты поиска
-├── resources/                  # Примеры документов
-│   ├── file001.txt
-│   ├── file002.txt
-│   └── file003.txt
-├── config.json                # Конфигурация
-├── requests.json              # Поисковые запросы
-└── answers.json               # Результаты поиска (генерируется)
-📋 Требования
+Требования
 CMake 3.16+
 
 C++17 совместимый компилятор (GCC 8+, Clang 7+, MSVC 2019+)
